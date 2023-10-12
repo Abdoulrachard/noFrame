@@ -570,6 +570,9 @@ footer p {
     body{
         overflow-x: hidden;
     }
+    .know{
+        font-size: 15px;
+    }
     .presentation p {
         font-size: 20px;
     }
