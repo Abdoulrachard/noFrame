@@ -5,7 +5,6 @@
     background: #0f1225;
     /* background-color: rgb(127, 141, 170) ; */
     font-family: 'Poppins', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    scroll-behavior: smooth;
     
 }
 .ancre{
@@ -15,7 +14,6 @@
     border-radius: 10px;
     cursor: pointer;
     margin-left: 90%;
-    scroll-behavior: smooth;
     
 }
 .ancre:hover{
@@ -585,13 +583,10 @@ footer p {
         margin-top: 10px;
     }
     .projet-item{    
-        height: 230px;
+        height: 250px;
     }
     .plot-2{
         height: 270px;
-    }
-    .blog-item{
-        height: 450px;
     }
     .project-info .force{
        top: 50px;
