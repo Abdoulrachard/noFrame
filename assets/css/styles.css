@@ -1,20 +1,21 @@
  body{
-    cursor: url(../Img/rshi.png) , auto;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     background: #0f1225;
     /* background-color: rgb(127, 141, 170) ; */
     font-family: 'Poppins', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    scroll-behavior: smooth;
     
 }
 .ancre{
-    background: #f4066d;
+    background: #2a2c4f;
     width: 35px;
     height: 35px;
     border-radius: 10px;
     cursor: pointer;
     margin-left: 90%;
+    scroll-behavior: smooth;
     
 }
 .ancre:hover{
@@ -467,7 +468,7 @@
     margin-bottom: 20px;
 }
 .email-input input {
-    padding: 10px;
+    padding: 12px;
     width: 250px;
     border-radius: 20px;
     border-style: none;
@@ -480,9 +481,10 @@
     margin-bottom: 10px;
 }
 .message-area textarea{
-    border-radius: 10px;
+    border-radius: 12px;
     border: none;
     outline: none;
+    padding: 10px;
 }
 .mys{
     font-size: 15px;
@@ -583,10 +585,13 @@ footer p {
         margin-top: 10px;
     }
     .projet-item{    
-        height: 250px;
+        height: 230px;
     }
     .plot-2{
         height: 270px;
+    }
+    .blog-item{
+        height: 450px;
     }
     .project-info .force{
        top: 50px;
