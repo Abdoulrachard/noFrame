@@ -594,6 +594,15 @@ footer p {
    .ancre{
     margin-left: 80%;
    }
+   .about-text p , .content-expertise p{
+    font-size: 17px;
+   }
+   .univers{
+        font-size: 15px;
+   }
+   .desc{
+    font-size: 14px;
+   }
 }
 @media (max-width: 835px){
     .humberger{
