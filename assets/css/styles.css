@@ -285,9 +285,9 @@
     flex-flow: column nowrap;
     gap: 10px;
 }
-.licence1-graduations:hover ,.bac-graduation:hover , .projet-item:hover {
+.licence1-graduations:hover ,.bac-graduation:hover , .projet-item:hover ,.blog-item:hover {
     box-shadow:0px 0px 15px  rgba(255, 255, 255, 1);
-    transform: translateY(-10px)
+    transform: translateY(-10px) ;
 }
 .licence1-graduations{
     border: 1px solid #fff;
