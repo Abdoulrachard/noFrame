@@ -285,8 +285,9 @@
     flex-flow: column nowrap;
     gap: 10px;
 }
-.licence1-graduations:hover ,.bac-graduation:hover {
+.licence1-graduations:hover ,.bac-graduation:hover , .projet-item:hover {
     box-shadow:0px 0px 15px  rgba(255, 255, 255, 1);
+    transform: translateY(-10px)
 }
 .licence1-graduations{
     border: 1px solid #fff;
@@ -459,31 +460,55 @@
 }
 .email-input label{
     display: block;
-    color: rgb(127, 141, 170);
+    color: #888b91;
     margin-bottom: 10px;
+    position: absolute;
+    transform: translate(30px , -12px);
+    z-index: 10;
 }
 
 .message-area{
     margin-bottom: 20px;
 }
 .email-input input {
+    position: relative;
+
     padding: 12px;
-    width: 250px;
-    border-radius: 20px;
+    width: 260px;
+    border-radius: 12px;
     border-style: none;
     outline: none;
-    
+    border: 2px solid #888b91 ;
+    background: transparent;
+    color:  #a395e9;
+    z-index: 1;
+}
+.email-input input:focus{
+    border: 2px solid #a395e9;
 }
 .message-area label{
     display: block;
-    color: rgb(127, 141, 170);
+    color: #888b91;
     margin-bottom: 10px;
+    position: absolute;
+    transform: translate(30px , -12px);
+    z-index: 10;
+
 }
 .message-area textarea{
     border-radius: 12px;
     border: none;
     outline: none;
     padding: 10px;
+    border: 2px solid#888b91;
+    background: transparent;
+    color:  #a395e9;
+    position: relative;
+    z-index: 1;
+
+}
+.message-area textarea:focus{
+    border: 2px solid #a395e9;
 }
 .mys{
     font-size: 15px;
@@ -504,11 +529,11 @@
     margin-left:0 ;
 }
 .send{
-    background: #eeca59;
+    background: #a395e9;
     width: 120px;
-    border-radius: 15px;
+    border-radius: 10px;
     border-style: none;
-    padding: 8px;
+    padding: 15px;
     cursor: pointer;
     font-weight: 600;
 }
@@ -559,6 +584,10 @@ footer p {
     opacity: 0;
     transform: translate(-70px, -50px);
    
+}
+.reveal-right{
+    opacity: 0;
+    transform: translate(-70px, -50px);
 }
 .reveal-out{
     opacity: 1;
